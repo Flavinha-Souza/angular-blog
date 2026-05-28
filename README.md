@@ -1,27 +1,119 @@
-# AngularBlog
+# 📝 Blog Angular - Portfólio Front-End
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-Framework-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TypeScript-Language-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge" />
+</p>
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🎓 Bootcamp
 
-## Code scaffolding
+Este projeto foi desenvolvido durante o bootcamp:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**🚀 Potência Tech Angular Developer - Powered by iFood**
 
-## Build
+O projeto base foi utilizado como ponto de partida, sendo posteriormente aprimorado com melhorias de arquitetura, UI/UX e boas práticas de desenvolvimento front-end.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 📌 Sobre o projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Este é um blog desenvolvido em **Angular**, com foco em arquitetura moderna, componentização e experiência do usuário.
 
-## Running end-to-end tests
+A aplicação simula um sistema de posts dinâmico, evoluído para um nível mais próximo de aplicações reais utilizadas no mercado.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## ⚙️ Arquitetura e Lógica de Dados
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- 🔗 **Simulação de API com Services**
+  - Centralização da lógica no `PostService`
+  - Uso de `Observables` para simular fluxo assíncrono de dados
+
+- 🧠 **Tipagem Forte com TypeScript**
+  - Interface `Post` define estrutura dos dados
+  - Maior segurança e previsibilidade no código
+
+- 🔎 **Sistema de busca em tempo real**
+  - Filtro dinâmico por título e tags
+  - Estado vazio tratado quando não há resultados
+
+---
+
+## 🎨 Design e UI (inspirado em Dribbble)
+
+- 🎨 Sistema de design com variáveis CSS (`:root`)
+- 🧊 Efeito Glassmorphism com blur e transparência
+- ✨ Micro-interações e animações suaves
+- 🖱️ Hover effects com sensação de profundidade
+- 🔤 Tipografia moderna (Inter)
+- 🌈 Uso de gradientes em títulos
+
+---
+
+## 🧩 Componentização
+
+- 🧱 Componentes reutilizáveis (`BigCard`, `SmallCard`)
+- 🔁 Componentes dinâmicos baseados em inputs
+- 🧭 Roteamento com parâmetros (`id` via URL)
+- 📦 Separação clara de responsabilidades
+
+---
+
+## 🧠 Aprendizados
+
+Este projeto reforçou conceitos importantes como:
+
+- Arquitetura de aplicações Angular
+- Programação reativa com Observables
+- Uso de Services para lógica de dados
+- Componentização avançada
+- UI/UX aplicada ao front-end
+- Organização de projetos escaláveis
+
+---
+
+## 🚀 Status do projeto
+
+✔️ Concluído (base do bootcamp)  
+🚀 Em evolução contínua como portfólio  
+🎯 Foco em UI/UX e boas práticas de mercado  
+
+---
+
+## 💡 Objetivo
+
+Transformar um projeto base de bootcamp em uma aplicação com:
+
+- arquitetura limpa e escalável
+- interface moderna e responsiva
+- padrões utilizados no mercado
+- experiência de usuário aprimorada
+
+---
+
+## 🛠️ Tecnologias
+
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+
+---
+
+## 📈 Evolução do projeto
+
+Este projeto passou por melhorias em relação à versão original do bootcamp, incluindo:
+
+- refatoração de componentes
+- melhorias de UI/UX
+- implementação de busca dinâmica
+- uso de padrões modernos de Angular
+
+---
+
+## 💬 Observação
+
+Projeto desenvolvido como parte do processo de aprendizado no bootcamp da **iFood Tech / Potência Tech Angular Developer**
