@@ -1,11 +1,70 @@
-.container__articles{
-  margin-top: 30px;
+.container__search {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 0 20px;
+}
 
-  @media(min-width: 700px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.container__search input {
+  width: 100%;
+  max-width: 600px;
+  padding: 16px 24px;
+  border-radius: 50px;
+  border: 1px solid var(--glass-border);
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.container__search input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 20px rgba(63, 81, 181, 0.3);
+}
+
+.container__articles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 20px;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 1.5fr 1fr;
   }
 }
 
+.container__empty {
+  text-align: center;
+  padding: 3rem;
+  color: #888;
+  font-size: 1.2rem;
+}
 
+.articles__others {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Adicione animação suave na entrada */
+.container__articles {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
