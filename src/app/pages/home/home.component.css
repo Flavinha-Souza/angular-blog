@@ -17,7 +17,7 @@
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .container__search input:focus {
@@ -53,7 +53,6 @@
   gap: 1.5rem;
 }
 
-/* Adicione animação suave na entrada */
 .container__articles {
   animation: fadeIn 0.8s ease-in-out;
 }
